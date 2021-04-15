@@ -1,5 +1,5 @@
 import unittest
-from Cases.request_obj import BaseRequestObj
+from request_obj import BaseRequestObj
 
 class TestZhiQiang(unittest.TestCase):
 

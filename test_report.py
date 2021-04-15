@@ -1,6 +1,6 @@
 import unittest
-from Cases.test_score import TestZKScore
-from Cases.test_zhiqiang import TestZhiQiang
+from test_score import TestZKScore
+from test_zhiqiang import TestZhiQiang
 from HTMLTestRunner import HTMLTestRunner
 
 # class TestReport(unittest.TestCase):
