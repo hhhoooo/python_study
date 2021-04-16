@@ -1,3 +1,7 @@
+import sys
+sys.path.append('./venv/Lib/site-packages')
+
+
 import requests
 import os
 import json
