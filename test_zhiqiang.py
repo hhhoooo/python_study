@@ -17,7 +17,7 @@ class TestZhiQiang(unittest.TestCase):
 
     def test_zhiqiang_test_params(self):
         """
-        智强测试
+        文玉测试
         :return:
         """
         res = self.req_obj.get_request(self.host_name )

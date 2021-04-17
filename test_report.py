@@ -1,5 +1,4 @@
 import unittest
-from test_score import TestZKScore
 from test_zhiqiang import TestZhiQiang
 from HTMLTestRunner import HTMLTestRunner
 
@@ -18,7 +17,6 @@ from HTMLTestRunner import HTMLTestRunner
 
 if __name__=='__main__':
     suite = unittest.TestSuite()
-    suite.addTests(unittest.TestLoader().loadTestsFromTestCase(TestZKScore))
     suite.addTests(unittest.TestLoader().loadTestsFromTestCase(TestZhiQiang))
     with open('../HTMLReport.html', 'wb') as f:
         runner = HTMLTestRunner(stream=f,
